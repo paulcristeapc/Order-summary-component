@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.card{
+    position:absolute;
+    width:25%;
+    background: #ffffff;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius:20px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    width:100%;
+}
+.titlu{
+    padding: 2rem 0 0 0;
+}
+.descriere{
+    text-align: center;
+    padding: 1rem 3rem ;
+    color: #7280a7;
+}
+.icon{
+    padding-right: 1rem;
+}
+.plan{
+    background-color: #f5f7ff;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+.plan2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.plan3{
+    padding-bottom: .1rem;
+}
+.pret{
+    color: #7280a7;
+}
+.change-btn{
+    color:#3829e0
+}
